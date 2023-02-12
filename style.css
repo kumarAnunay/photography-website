@@ -38,7 +38,9 @@
 }
 
 .section-2{
-    height: 300px;
+    min-height: 400px;
+    text-align: center;
+    padding: 50px 80px;
     background-color: #f4f4f4;
     color: #666;
 }
@@ -46,6 +48,7 @@
 .para-1{
     font-size: 30px;
     font-weight: bold;
+    margin-bottom: 30px;
 }
 
 .para-2{
@@ -57,7 +60,6 @@
 }
 
 .img-2{
-    position: relative;
     background: url("./images/image2.jpeg");
     background-position: center;
     background-repeat: no-repeat;
@@ -72,4 +74,91 @@
     font-size: 30px;
     letter-spacing: 4px;
     word-spacing: 5px;
+}
+
+.section-4{
+    min-height: 350px;
+    text-align: center;
+    padding: 50px 80px;
+    background-color: #000;
+    color: #f4f4f4;
+}
+
+.para-3{
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.para-4{
+    width: 70%;
+}
+
+.section-5{
+    height: 400px;
+}
+
+.img-3{
+    background: url("./images/image3.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    opacity: 0.5;
+    min-height: 100%;
+}
+
+.text-3{
+    color: #f4f4f4;
+    font-size: 30px;
+    letter-spacing: 4px;
+    word-spacing: 5px;
+}
+
+.section-6{
+    min-height: 350px;
+    text-align: center;
+    padding: 50px 80px;
+    background-color: #000;
+    color: #f4f4f4;
+}
+
+.para-5{
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.para-6{
+    width: 70%;
+}
+
+.section-7{
+    height: 100vh;
+}
+
+.img-4{
+    position: relative;
+    background: url("./images/image1.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    opacity: 0.7;
+    min-height: 100%;
+}
+
+.text-4{
+    font-size: 27px;
+    letter-spacing: 8px;
+    /* top: 50%; */
+    position: absolute;
+    width: 450px;
+    height: 75px;
+    border: 1px solid #000;
+    background-color: #000;
+    color: white;
+    text-align: center;
+    padding-top: 15px;
+    padding-left: 4px;
 }
