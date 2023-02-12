@@ -164,6 +164,10 @@
 }
 
 @media (max-width: 440px) {
+    .container-fluid {
+        width: 100vh !important;
+    }
+
     .section-2 {
         min-height: 400px;
         text-align: center;
